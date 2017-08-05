@@ -1,0 +1,80 @@
+body {
+    background: black;
+    color: white;
+}
+a {
+    cursor: pointer;
+}
+.dimColor {
+    color: #ccc;
+}
+.watched {
+    display: inline-block;
+    padding: 4px 30px;
+    background: #00e6a4;
+    color: black;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.serachMe{
+    background: black;
+    border-radius: 33px;
+    border: 1px solid;
+    color: white;
+    padding: 8px 31px;
+    outline: none;
+    text-align: center;
+}
+.visited{
+    height: 180px!important;
+}
+.thumbnail {
+    cursor: pointer;
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    display: block;
+    width: 60px;
+    margin: 0px auto;
+    height: 60px;
+    border-width: 6px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.myHeader {
+    height: 78px;
+}
+.myHeader .container{
+    margin-top: 13px;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.myhome{
+    font-size: 300px;
+}
+.thumbnail:hover > .likes{
+    display: block!important;
+}
+.likes {
+    display: none;
+    font-size: 27px;
+    padding: 4px;
+    background: black;
+    border-radius: 40px;
+    position: absolute;
+}
+.likes.left {
+    // float: left;
+    background: green;
+}
+.likes.right {
+    right: 20px;
+    background: red;
+}
