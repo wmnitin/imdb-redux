@@ -1,14 +1,14 @@
 {
-  "name": "react-redux-starwars",
-  "description": "Example of an isomorphic (universal) webapp using react redux and hot reloading",
+  "name": "react-redux-imdb",
+  "description": "Project created for tlkn",
   "author": "Nitin",
   "license": "MIT",
-  "version": "0.9.0",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erikras/react-redux-universal-hot-example"
+    "url": "https://github.com/wmnitin/imdb-redux.git"
   },
-  "homepage": "https://github.com/erikras/react-redux-universal-hot-example",
+  "homepage": "",
   "keywords": [
     "react",
     "isomorphic",
