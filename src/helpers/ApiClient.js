@@ -36,7 +36,7 @@ export default class ApiClient {
   }
   searchApi(value) {
     return new Promise((resolve, reject) => {
-      superagent.get('http://www.omdbapi.com/?t=' + value + '&apikey=aabca0d')
+      superagent.get('https://www.omdbapi.com/?t=' + value + '&apikey=aabca0d')
         .end((err, res) => {
           if (err) {
             reject(res || err);
