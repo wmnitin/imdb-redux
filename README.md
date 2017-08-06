@@ -6,4 +6,4 @@ PROJECT CREATED USING REACT WITH REDUX. :)
 3. npm run start
 
 <b>TEST</b>
-Open http://localhost:8081 in browser.
+Open http://localhost:3001 in browser.
